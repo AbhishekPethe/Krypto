@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: #160E33;
+  font-family: 'Tektur', cursive;
+  
+  overflow-x: hidden;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+  width : 15px;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background-color: #ea2236;
+  border-radius: 10px;
+  border: 2px solid #ffffff;
+}
+
+.desc a{
+  color : rgb(34, 197, 94);
+  
+}
+
+.desc a:hover{
+  text-decoration: underline;
+}
